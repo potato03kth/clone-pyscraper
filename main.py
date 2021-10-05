@@ -17,7 +17,7 @@ add_x(days, "Sat")
 print(days)
 
 remove_x(days, "Mon")
-print(days)
+print(days) 
 
 
 # /\/\/\/\/\/\/\ END DO NOT TOUCH AREA /\/\/\/\/\/\/\ #
