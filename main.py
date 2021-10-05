@@ -6,6 +6,23 @@ Start by creating the functions
 """
 
 # \/\/\/\/\/\/\  DO NOT TOUCH AREA  \/\/\/\/\/\/\ #
+def is_on_list(get_lists, get_days):
+  if get_days in get_lists:
+    return "True"
+  else:
+    return "False"
+
+def get_x(get_days, get_index):
+  return get_days[get_index]
+
+def add_x(get_lists, get_days):
+  get_lists.append(get_days)
+  return get_lists
+
+def remove_x(get_lists, get_days):
+  get_lists.remove(get_days)
+  return get_lists
+
 
 days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
@@ -18,6 +35,11 @@ print(days)
 
 remove_x(days, "Mon")
 print(days) 
+
+# easygame
+
+
+
 
 
 # /\/\/\/\/\/\/\ END DO NOT TOUCH AREA /\/\/\/\/\/\/\ #
